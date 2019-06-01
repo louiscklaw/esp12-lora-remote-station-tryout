@@ -3601,12 +3601,12 @@ F2 "SCL" B R 2400 1500 50
 F3 "SDA" B R 2400 1600 50 
 $EndSheet
 $Sheet
-S 1750 2700 650  350 
+S 1800 2750 650  350 
 U 5CF23B4E
 F0 "digital_input" 50
 F1 "digital_input.sch" 50
-F2 "SCL" B R 2400 2850 50 
-F3 "SDA" B R 2400 2950 50 
+F2 "SCL" B R 2450 2900 50 
+F3 "SDA" B R 2450 3000 50 
 $EndSheet
 $Sheet
 S 3750 950  850  1050
@@ -3692,12 +3692,12 @@ SCL
 Text Label 3050 2300 2    50   ~ 0
 SDA
 Entry Wire Line
-	3100 2850 3200 2950
+	3150 2900 3250 3000
 Entry Wire Line
-	3100 2950 3200 3050
-Text Label 3000 2850 2    50   ~ 0
+	3150 3000 3250 3100
+Text Label 3050 2900 2    50   ~ 0
 SCL
-Text Label 3000 2950 2    50   ~ 0
+Text Label 3050 3000 2    50   ~ 0
 SDA
 Entry Wire Line
 	6650 750  6550 850 
@@ -3744,9 +3744,9 @@ Wire Wire Line
 Wire Wire Line
 	2400 2300 3150 2300
 Wire Wire Line
-	2400 2850 3100 2850
+	2450 2900 3150 2900
 Wire Wire Line
-	2400 2950 3100 2950
+	2450 3000 3150 3000
 Wire Wire Line
 	6650 750  7100 750 
 Wire Wire Line
