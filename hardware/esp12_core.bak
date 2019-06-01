@@ -246,7 +246,7 @@ AR Path="/5CD47361/5CD4D9E6" Ref="U?"  Part="1"
 AR Path="/5CF23C1A/5CD4D9E6" Ref="U4"  Part="1" 
 F 0 "U4" H 3600 6500 50  0000 C CNN
 F 1 "ESP12" H 3600 6400 50  0000 C CNN
-F 2 "footprint-lib:ESP-12" H 3650 4500 50  0001 C CNN
+F 2 "footprint-lib:ESP-12E" H 3650 4500 50  0001 C CNN
 F 3 "" H 3650 4500 50  0001 C CNN
 	1    3600 5200
 	1    0    0    -1  
@@ -5948,7 +5948,7 @@ AR Path="/5CF23D41/5CFF424D" Ref="J?"  Part="1"
 AR Path="/5CF23C1A/5CFF424D" Ref="J5"  Part="1" 
 F 0 "J5" H 1222 1132 50  0000 R CNN
 F 1 "I2C_HEADER,2.54" H 1222 1223 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 800 50  0001 C CNN
+F 2 "footprint-lib:I2C_DEBUG,2.54" H 1250 800 50  0001 C CNN
 F 3 "" H 1250 1150 50  0001 C CNN
 	1    1250 1200
 	1    0    0    1   

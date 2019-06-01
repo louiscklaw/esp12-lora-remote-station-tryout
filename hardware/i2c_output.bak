@@ -24,7 +24,7 @@ AR Path="/5CF23D41/5D001693" Ref="J?"  Part="1"
 AR Path="/5CF23D02/5D001693" Ref="J8"  Part="1" 
 F 0 "J8" H 672 882 50  0000 R CNN
 F 1 "I2C_HEADER,2.54" H 672 973 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 700 550 50  0001 C CNN
+F 2 "footprint-lib:I2C_DEBUG,2.54" H 700 550 50  0001 C CNN
 F 3 "" H 700 900 50  0001 C CNN
 	1    700  950 
 	1    0    0    1   

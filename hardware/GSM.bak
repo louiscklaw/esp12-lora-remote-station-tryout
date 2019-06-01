@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 8500 5500
 encoding utf-8
-Sheet 11 15
+Sheet 10 15
 Title ""
 Date ""
 Rev ""
@@ -10105,7 +10105,7 @@ AR Path="/5CF23C6C/5CF6031E" Ref="J7"  Part="1"
 AR Path="/5CF2E587/5CF6031E" Ref="J?"  Part="1" 
 F 0 "J7" H 942 2435 50  0000 C CNN
 F 1 "TXD_HEADER" H 942 2344 50  0000 C CNN
-F 2 "" H 1050 2150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1050 2150 50  0001 C CNN
 F 3 "~" H 1050 2150 50  0001 C CNN
 	1    1050 2150
 	-1   0    0    -1  
@@ -10166,7 +10166,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 2050 1550 2050
 Wire Wire Line
-	1550 2050 1550 1850
+	1550 2050 1550 1900
 Text Label 1100 750  2    50   ~ 0
 TXD
 Text Label 1100 650  2    50   ~ 0
@@ -10226,4 +10226,7 @@ Wire Wire Line
 	1550 1900 2300 1900
 Wire Wire Line
 	2300 1900 2300 2100
+Connection ~ 1550 1900
+Wire Wire Line
+	1550 1900 1550 1850
 $EndSCHEMATC

@@ -14,4 +14,258 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L taobao-components:AMS1117-3.3 U?
+U 1 1 5CF7F701
+P 3000 1350
+AR Path="/5CD03616/5CF7F701" Ref="U?"  Part="1" 
+AR Path="/5CD03534/5CF7F701" Ref="U?"  Part="1" 
+AR Path="/5CD47361/5CF7F701" Ref="U?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F701" Ref="U?"  Part="1" 
+AR Path="/5CF23C30/5CF7F701" Ref="U5"  Part="1" 
+F 0 "U5" H 3000 1592 50  0000 C CNN
+F 1 "AMS1117-3.3" H 3000 1501 50  0000 C CNN
+F 2 "footprint-lib:AMS1117_SOT-223" H 3000 1550 50  0001 C CNN
+F 3 "" H 3100 1100 50  0001 C CNN
+	1    3000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CF7F707
+P 2350 1150
+AR Path="/5CD03616/5CF7F707" Ref="#PWR?"  Part="1" 
+AR Path="/5CD03534/5CF7F707" Ref="#PWR?"  Part="1" 
+AR Path="/5CD47361/5CF7F707" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F707" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C30/5CF7F707" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 2350 1000 50  0001 C CNN
+F 1 "+5V" H 2400 1350 50  0000 C CNN
+F 2 "" H 2350 1150 50  0001 C CNN
+F 3 "" H 2350 1150 50  0001 C CNN
+	1    2350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CF7F70D
+P 3600 1150
+AR Path="/5CD03616/5CF7F70D" Ref="#PWR?"  Part="1" 
+AR Path="/5CD03534/5CF7F70D" Ref="#PWR?"  Part="1" 
+AR Path="/5CD47361/5CF7F70D" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F70D" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C30/5CF7F70D" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 3600 1000 50  0001 C CNN
+F 1 "+3V3" H 3650 1350 50  0000 C CNN
+F 2 "" H 3600 1150 50  0001 C CNN
+F 3 "" H 3600 1150 50  0001 C CNN
+	1    3600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP10uf,16V C?
+U 1 1 5CF7F713
+P 2350 1550
+AR Path="/5CD03616/5CF7F713" Ref="C?"  Part="1" 
+AR Path="/5CD03534/5CF7F713" Ref="C?"  Part="1" 
+AR Path="/5CD47361/5CF7F713" Ref="C?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F713" Ref="C?"  Part="1" 
+AR Path="/5CF23C30/5CF7F713" Ref="C7"  Part="1" 
+F 0 "C7" H 2450 1600 50  0000 L CNN
+F 1 "CP10uf,16V" H 2450 1550 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 2350 1550 50  0001 C CNN
+F 3 "~" H 2350 1550 50  0001 C CNN
+	1    2350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C106,0603 C?
+U 1 1 5CF7F719
+P 3600 1550
+AR Path="/5CD03616/5CF7F719" Ref="C?"  Part="1" 
+AR Path="/5CD03534/5CF7F719" Ref="C?"  Part="1" 
+AR Path="/5CD47361/5CF7F719" Ref="C?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F719" Ref="C?"  Part="1" 
+AR Path="/5CF23C30/5CF7F719" Ref="C8"  Part="1" 
+F 0 "C8" H 3700 1600 50  0000 L CNN
+F 1 "C106,0603" H 3700 1550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 1550 50  0001 C CNN
+F 3 "~" H 3600 1550 50  0001 C CNN
+	1    3600 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1150 2350 1350
+Wire Wire Line
+	2700 1350 2350 1350
+Connection ~ 2350 1350
+Wire Wire Line
+	2350 1350 2350 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5CF7F723
+P 2350 1850
+AR Path="/5CD03616/5CF7F723" Ref="#PWR?"  Part="1" 
+AR Path="/5CD03534/5CF7F723" Ref="#PWR?"  Part="1" 
+AR Path="/5CD47361/5CF7F723" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F723" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C30/5CF7F723" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 2350 1600 50  0001 C CNN
+F 1 "GND" H 2400 1650 50  0000 C CNN
+F 2 "" H 2350 1850 50  0001 C CNN
+F 3 "" H 2350 1850 50  0001 C CNN
+	1    2350 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1650 2350 1850
+Wire Wire Line
+	3300 1350 3600 1350
+Wire Wire Line
+	3600 1350 3600 1150
+Wire Wire Line
+	3600 1350 3600 1450
+Connection ~ 3600 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5CF7F72E
+P 3600 1850
+AR Path="/5CD03616/5CF7F72E" Ref="#PWR?"  Part="1" 
+AR Path="/5CD03534/5CF7F72E" Ref="#PWR?"  Part="1" 
+AR Path="/5CD47361/5CF7F72E" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F72E" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C30/5CF7F72E" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 3600 1600 50  0001 C CNN
+F 1 "GND" H 3650 1650 50  0000 C CNN
+F 2 "" H 3600 1850 50  0001 C CNN
+F 3 "" H 3600 1850 50  0001 C CNN
+	1    3600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1650 3600 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5CF7F735
+P 3000 1800
+AR Path="/5CD03616/5CF7F735" Ref="#PWR?"  Part="1" 
+AR Path="/5CD03534/5CF7F735" Ref="#PWR?"  Part="1" 
+AR Path="/5CD47361/5CF7F735" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F735" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C30/5CF7F735" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 3000 1550 50  0001 C CNN
+F 1 "GND" H 3050 1600 50  0000 C CNN
+F 2 "" H 3000 1800 50  0001 C CNN
+F 3 "" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1650 3000 1800
+$Comp
+L power:+5V #PWR?
+U 1 1 5CF7F73C
+P 1700 1150
+AR Path="/5CD03616/5CF7F73C" Ref="#PWR?"  Part="1" 
+AR Path="/5CD03534/5CF7F73C" Ref="#PWR?"  Part="1" 
+AR Path="/5CD47361/5CF7F73C" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F73C" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C30/5CF7F73C" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 1700 1000 50  0001 C CNN
+F 1 "+5V" H 1750 1350 50  0000 C CNN
+F 2 "" H 1700 1150 50  0001 C CNN
+F 3 "" H 1700 1150 50  0001 C CNN
+	1    1700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CF7F742
+P 1700 1850
+AR Path="/5CD03616/5CF7F742" Ref="#PWR?"  Part="1" 
+AR Path="/5CD03534/5CF7F742" Ref="#PWR?"  Part="1" 
+AR Path="/5CD47361/5CF7F742" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F742" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C30/5CF7F742" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 1700 1600 50  0001 C CNN
+F 1 "GND" H 1750 1650 50  0000 C CNN
+F 2 "" H 1700 1850 50  0001 C CNN
+F 3 "" H 1700 1850 50  0001 C CNN
+	1    1700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5CF7F748
+P 1400 1600
+AR Path="/5CF23C1A/5CF7F748" Ref="J?"  Part="1" 
+AR Path="/5CF23C30/5CF7F748" Ref="J12"  Part="1" 
+F 0 "J12" H 1292 1275 50  0000 C CNN
+F 1 "5V_header" H 1292 1366 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1400 1600 50  0001 C CNN
+F 3 "~" H 1400 1600 50  0001 C CNN
+	1    1400 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 1150 1700 1500
+Wire Wire Line
+	1700 1500 1600 1500
+Wire Wire Line
+	1700 1850 1700 1600
+Wire Wire Line
+	1700 1600 1600 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5CF7F752
+P 2100 1850
+AR Path="/5CD03616/5CF7F752" Ref="#PWR?"  Part="1" 
+AR Path="/5CD03534/5CF7F752" Ref="#PWR?"  Part="1" 
+AR Path="/5CD47361/5CF7F752" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F752" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C30/5CF7F752" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 2100 1600 50  0001 C CNN
+F 1 "GND" H 2150 1650 50  0000 C CNN
+F 2 "" H 2100 1850 50  0001 C CNN
+F 3 "" H 2100 1850 50  0001 C CNN
+	1    2100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5CF7F758
+P 1800 1600
+AR Path="/5CF23C1A/5CF7F758" Ref="J?"  Part="1" 
+AR Path="/5CF23C30/5CF7F758" Ref="J13"  Part="1" 
+F 0 "J13" H 1692 1275 50  0000 C CNN
+F 1 "5V_header" H 1692 1366 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1800 1600 50  0001 C CNN
+F 3 "~" H 1800 1600 50  0001 C CNN
+	1    1800 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 1150 2100 1500
+Wire Wire Line
+	2100 1500 2000 1500
+Wire Wire Line
+	2100 1850 2100 1600
+Wire Wire Line
+	2100 1600 2000 1600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CF7F762
+P 2100 1150
+AR Path="/5CD03616/5CF7F762" Ref="#PWR?"  Part="1" 
+AR Path="/5CD03534/5CF7F762" Ref="#PWR?"  Part="1" 
+AR Path="/5CD47361/5CF7F762" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C1A/5CF7F762" Ref="#PWR?"  Part="1" 
+AR Path="/5CF23C30/5CF7F762" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 2100 1000 50  0001 C CNN
+F 1 "+3V3" H 2150 1350 50  0000 C CNN
+F 2 "" H 2100 1150 50  0001 C CNN
+F 3 "" H 2100 1150 50  0001 C CNN
+	1    2100 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

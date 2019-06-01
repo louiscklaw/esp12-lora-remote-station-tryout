@@ -22,7 +22,7 @@ AR Path="/5CF23B1B/5CF34BF5" Ref="J?"  Part="1"
 AR Path="/5CF23B71/5CF34BF5" Ref="J11"  Part="1" 
 F 0 "J11" H 1222 3982 50  0000 R CNN
 F 1 "I2C_HEADER,2.54" H 1222 4073 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 3650 50  0001 C CNN
+F 2 "footprint-lib:I2C_DEBUG,2.54" H 1250 3650 50  0001 C CNN
 F 3 "" H 1250 4000 50  0001 C CNN
 	1    1250 4050
 	1    0    0    1   

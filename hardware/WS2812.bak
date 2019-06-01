@@ -3335,4 +3335,5 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4650 2125 50  0001 
 $EndComp
 Wire Wire Line
 	2400 1900 2550 1900
+NoConn ~ 4850 2500
 $EndSCHEMATC
